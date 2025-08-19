@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="HotelBookingSuite" verbose="1" parallel="false">
+    <test name="HotelBookingTests">
+        <classes>
+            <class name="com.hotelbooking.tests.ViewBookingTests"/>
+            <class name="com.hotelbooking.tests.AddBookingTests"/>
+            <class name="com.hotelbooking.tests.DeleteBookingTests"/>
+            <class name="com.hotelbooking.tests.NegativeBookingTests"/>
+        </classes>
+    </test>
+</suite>
